@@ -15,5 +15,6 @@ require 'pry'
   # }
   
 def remove_strawberry(contacts)
-
+  contacts["Freddy Mercury"].each do |name, attribute| 
+    binding.pry 
 end
